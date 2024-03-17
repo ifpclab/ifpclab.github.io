@@ -1,0 +1,24 @@
+# jemdoc: menu{MENU}{publications.html}, nofooter
+== Publications 
+
+== Journals
+
+~~~
+
+. Dongdong Qin, Andong Liu, Wen-an Zhang, Jianming Xu, Li Yu. Learning from human demonstrations for wheel mobile manipulator: An unscented model predictive control approach. IEEE Transactions on Neural Networks and Learning Systems, 2022, Doi: 10.1109/TNNLS.2022.3171595.
+. Zhehao Jin, Andong Liu, Wen-an Zhang, Li Yu, Chunyi Su. A learning-based framework for human-robot collaboration. IEEE Transactions on Automation Science and Engineering, 2022, Doi: 10.1109/TASE.2022.3161993.
+. YaoWei Wang, Andong Liu, Wen-An Zhang, MinWu. Synchronization tracking control of networked multi-axis motion systems: A cooperative distributed model predictive control approach. Control Engineering Practice, 2022, 126, 105233.
+. CongCong Jin, *Andong Liu, Steven Liu, Wen-An Zhang. A robot skill learning method based on improved stable estimator of dynamical systems. Acta Automatica Sinica, 2022, 48(7): 1771-1781. (in Chinese)
+. Zhehao Jin, Andong Liu, Wen-an Zhang, Li Yu. An optimal variable impedance control with consideration of the stability. IEEE Robotics and Automation Letters, 2022, 7(2): 1737 -1744.
+. Andong Liu, Enjun Yang, Jinhui Wu, You Teng, Li Yu. Double sparse low rank decomposition for irregular printed fabric defect detection. Neurocomputing, 2022, 482: 287-297.
+
+
+~~~
+
+== Conference Proceedings
+
+~~~
+. Zhehao Jin, Dongdong Qin, Andong Liu, Wen-an. Zhang, Li Yu. Constrained Variable Impedance Control using Quadratic Programming. Proceedings of the 2022 IEEE International Conference on Robotics and Automation (ICRA), 2022, pp. 1-6.
+
+~~~
+

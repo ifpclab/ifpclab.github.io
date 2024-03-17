@@ -1,0 +1,28 @@
+# jemdoc: menu{MENU}{resources.html}, nofooter
+== Resources
+
+== Videos：演示视频
+=== Human-robot collaboration
+~~~
+  {}{img_left}{photos/v1.png}{alt text}{768}{384}{webm/HC.mp4}
+~~~
+
+=== Demonstration learning
+~~~
+{}{img_left}{photos/v2.png}{alt text}{768}{384}{webm/DL.mp4}
+
+~~~
+
+
+== Codes：开源代码
+~~~
+
+{{<ul>
+<li><a href="https://github.com/iReading-Lab/iReading-Lab.github.io/tree/main/pubs/GPMP_openSourced">GPMP_openSourced</a>
+</li>
+<li><a href="https://github.com/IReading-Lab-zjut/Robotic_Arm/tree/main/Periodic_motor_learning">Periodic_motor_learning</a>
+</li>
+</ul>}}
+
+~~~
+

@@ -1,0 +1,25 @@
+# jemdoc: menu{MENU}{index.html}, nofooter
+== Information Fusion Perception and Control lab
+
+
+Information fusion perception and control lab is directed by Prof. Wen-An Zhang at the Department of Control science and Engineering, College of Information Engineering, 
+Zhejiang University of Technology. We focus on information fusion， perception and control for autonomous systems. Current research interests contain information fusing, intelligent perception, 
+robotic control and learning algorithms.
+
+~~~
+{}{img_left}{photos/bio1.jpg}{alt text}{652px}{430px}
+
+~~~
+
+== News
+
+~~~
+- \[2022.09\]Our paper “External force estimation of the industrial robot based on the error probability model and SWVAKF” was accepted by IEEE Transactions on Instrumentation & Measurement! 
+
+
+~~~
+
+== Contact
+Address: Room C105, Information Engineering Building, Zhejiang University of Technology, 288 Liuhe Rd, Xihu District, Hangzhou, China.\n\n
+E-mail: wazhang@zjut.edu.cn
+
