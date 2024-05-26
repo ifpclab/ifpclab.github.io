@@ -23,31 +23,92 @@
 <div id="toptitle">
 <h1>Research</h1>
 </div>
-<h3>Position Synchronization Control for Networked Multi-axis Servo Systems</h3>
-<table class="imgtable"><tr><td>
-<img src="photos/nmmc.png" alt="alt text" width="768px" height="320px" />&nbsp;</td>
-<td align="left"></td></tr></table>
-<p>Position synchronization control (PSC) for multi-axis servo systems is a crucial part in manufacturing industry, which is used to ensure that all machine shafts move synchronously and coordinately according to a certain proportion during the motion. With the rapid development of network communication technologies, both academia and industry have attempted to implement the PSC for networked motion control systems (NMCSs), for example, the computer numerical control (CNC) systems, the surface mount systems, the electric multiple units, and the robotic arms. Although the application of the NMCS brings many benefits, such as simplified wiring, powerful extensibility and easy maintenance, it also raises several new challenging issues. One of them is the network-induced delay, which may seriously degrade system performances. An effective method to address this problem is to consider the time delay as a network disturbance and compensate for it using approaches based on disturbance observers.</p>
+<div id="solid black">
+
+<h2>Synchronization Motion Controls</h2>
+</div>
+<table class="imgtable">
+  <tr>
+    <td>
+      <img src="photos/nmmc.png" alt="alt text" width="320px" height="320px" />
+    </td>
+    <td>
+      <img src="photos/pscnns.png" alt="alt text" width="320px" height="320px" />
+    </td>
+  </tr>
+</table>
+<p>Synchronization motion control (SMC) for multiaxis servo systems is a crucial part in the manufacturing industry, which is used to ensure that all machine shafts move synchronously and coordinately according to a certain proportion during the motion. With the rapid development of network communication technologies, both academia and industry have attempted to implement the high-precision SMC for networked motion control systems (NMCSs), for example, computer numerical control (CNC) systems, surface mount systems, electric multiple units, and robotic arms. Although the application of the NMCS brings many benefits, such as simplified wiring, powerful extensibility, and easy maintenance, it also raises several new challenging issues. One of them is the network-induced delay, which may seriously degrade system performance. An effective method to address this problem is to consider the time delay as a network disturbance and compensate for it using approaches based on disturbance observers.</p>
 <ul>
-<li><p>Qi Wu, Shijian Dong, <b>Wen-An Zhang†</b> and Li Yu. Online modeling of the CNC engraving system with dead-zone input nonlinearity. IEEE Transactions on Industrial  Electronics, 2022, 69(1): 774-782, doi: 10.1109/TIE.2020.3044819.</p>
+<li><p>Yao-Wei Wang, Wen-An Zhang, Li Yu. A linear active disturbance rejection control approach to position synchronization control for networked interconnected motion system [J]. IEEE Transactions on Control of Network Systems, 7 (4): 1746-1756, 2020. (ESI热点与高被引)</p>
 </li>
-<li><p>Qi Wu, Li Yu, Yao-Wei Wang and <b>Wen-An Zhang†</b>. LESO-based position synchronization control for networked multi-axis servo systems with time-varying delay. IEEE-CAA Journal of Automatica Sinica, 2020, 7(4): 1116-1123, doi: 10.1109/JAS.2020.1003264.</p>
+<li><p>Yao-Wei Wang, Wen-An Zhang, Li Yu. GESO-Based Position Synchronization Control of Networked Multiaxis Motion System [J]. IEEE Transactions on Industrial Informatics, 16 (1): 248-257, 2020.</p>
+</li>
+<li><p>Qi Wu, Li Yu, Yao-Wei Wang and Wen-An Zhang. LESO-based position synchronization control for networked multi-axis servo systems with time-varying delay. IEEE-CAA Journal of Automatica Sinica, 2020, 7(4): 1116-1123, doi: 10.1109/JAS.2020.1003264. </p>
+</li>
+<li><p>Yao-Wei Wang, Tao Yan, Wen-An Zhang, Min Wu, Chengda Lu. Learning-enabled output feedback MPC based synchronization tracking control of multi-axis motion systems [J]. IEEE Transactions on Industrial Electronics,  pp: 1-9, 2022. doi: 10.1109/TIE.2022.3203753.</p>
+</li>
+<li><p>Yao-Wei Wang, Andong Liu, Wen-An Zhang, Min Wu. Synchronization tracking control of networked multi-axis motion systems: A cooperative distributed model predictive control approach [J]. Control Engineering Practice, 126: 1-8, 2022. doi: 10.1016/j.conengprac.2022.105233.</p>
+</li>
+<li><p>Yao-Wei Wang, Xiang Wu, Wen-An Zhang, Min Wu. Equivalent-Input-Disturbance Based Position Synchronization Control of Networked Multi-axis Motion System [J]. IEEE Transactions on Industrial Electronics,  69 (8): 8317-8324, 2022. doi: 10.1109/TIE.2021.3106021.</p>
 </li>
 </ul>
-<h3>Intelligent Fault Diagnosis for Mechanical Equipments based on Monitoring Signals</h3>
+
+
+
+
+<h2>Contour tracking control</h2>
+<table class="imgtable">
+  <tr>
+    <td>
+      <img src="photos/ctc1.png" alt="alt text" width="480px" height="320px" />
+    </td>
+    <td>
+      <img src="photos/ctc2.png" alt="alt text" width="480px" height="320px" />
+    </td>
+  </tr>
+</table>
+    <p>Contouring tracking control is one of the most complicated tasks in motion control of multiaxis system, because it is related not only to individual-axis tracking accuracy, but also to the synchronization performance of multiaxis. Due to the rapid development of network communication technologies, networked control systems (NCSs) have increasingly gained attention. At the same time, network technologies have been introduced to motion control systems to overcome the complexity of wiring, the difficulty of maintenance, the lack of expansibility, and other weaknesses of conventional systems. However, some recently appeared problems need to be solved for a networked motion control system (NMCS). One of them is a network-induced delay, which may seriously degrade the performance of the system. In an NMCS, network-induced delays are aperiodic time-varying, and exogenous disturbances caused by unmodeled dynamics. The question of how to achieve high-precision contour tracking control of such an NMCS remains an unresolved problem. Robust control, a Smith predictor, a switch system, disturbance-observer-based control (DOBC) and other approaches have been presented to deal with delay. Among them, the DOBC approach, which treats a delay as a network disturbance (ND), has two degrees of freedom and does not need a trade-off between system stability and control performance.</p>
+
+    <ul>
+<li><p>Qi Wu, Shijian Dong, Wen-An Zhang and Li Yu. Online modeling of the CNC engraving system with dead-zone input nonlinearity. IEEE Transactions on Industrial Electronics, 2022, 69(1): 774-782, doi: 10.1109/TIE.2020.3044819.</p>
+</li>
+<li><p>Xiang Wu, Guangpu Huang, Fanghong Guo*, et al. An adaptive-filter based equivalent-input-disturbance approach for networked control systems with measurement noise. IEEE Transactions on Industrial Electronics, 70(6): 170-6179, 2022.</p>
+</li>
+<li><p>Xiang Wu, Jinhua She, Li Yu*, et al. Contour tracking control of networked motion control system using improved equivalent-input-disturbance approach. IEEE Transactions on Industrial Electronics, 68(6): 5155-5165, 2021.</p>
+</li>
+<li><p>Xiang Wu, Hui Dong*, Jinhua She, Li Yu. High-precision contour-tracking control of Ethernet-based networked motion control systems. IEEJ Journal of Industry Applications, 9(1): 1-10, 2020.</p>
+</li>
+<li><p>Yao-Wei Wang, Wen-An Zhang, Hui Dong, Li Yu. A LADRC based fuzzy PID approach to contour error control of networked motion control system with time‐varying delays [J]. Asian Journal of Control, 22 (5): 1973-1985, 2020.</p>
+</li>
+<li><p>Yao-Wei Wang, Wen-An Zhang, Hui Dong, Li Yu. A GESO based MPC approach to contour error control of networked motion control system [J]. International Journal of Systems Science, 50 (11):2216-2225, 2019.</p>
+</li>
+<li><p>Yao-Wei Wang, Andong Liu, Wen-An Zhang, Li Yu. GESO-based control for networked systems with time-varying delays [J]. Measurement, 133: 281-287, 2019.</p>
+</li>
+<li><p>Yao-Wei Wang, Wen-An Zhang, Hui Dong, Jun-Wei Zhu. Generalized Extended State Observer Based Control for Networked Interconnected Systems with Delays [J]. Asian Journal of Control, 20 (3): 1253-1262, 2018.</p>
+</li>
+
+</ul>
+
+
+
+
+<h2>Intelligent Fault Diagnosis</h2>
 <table class="imgtable"><tr><td>
 <img src="photos/Ifd.png" alt="alt text" width="768px" height="520px" />&nbsp;</td>
 <td align="left"></td></tr></table>
-<p>Fault diagnosis is an approach designed to comprehend and assess the operational state of mechanical equipment, determining its overall or partial normalcy or abnormality which is employed in the health management of sizable machinery, including wind turbines, ship motors, gas turbines, aviation engines, and cranes. Nevertheless, the progression of intelligent manufacturing has resulted in an escalation of structural complexity and precision in mechanical equipment, introducing challenges such as nonlinearity, non-stationarity, incompleteness, incomplete information, and insufficient fault category coverage in operational monitoring data. Consequently, time and frequency domain feature extraction methods based on wavelet packet decomposition and analysis of cepstrum are used to extract features characterizing prominent faults. Simultaneously, multi-scale analysis methods are applied to capture additional fault-related information, thereby enhancing the accuracy of fault diagnosis.</p>
-<ul>
-<li><p>Dajian Huang, <b>Wen-An Zhang†</b> and Steven X. Ding. Bearing fault diagnosis with incomplete training data: Fault data with partial diameters. IEEE Transactions on Automation Science and Engineering, Early access. doi: 10.1109/TASE.2023.3294811.</p>
+<p>Faultdiagnos1s1Sapproacha11designed to understand and assesstheoperational state of mechanical equipment.MAEW-0determining its general or partial normalityor abnormality which is employed in thehealth management of sizable machineryincluding wind turbines,ship motors, gasturbines.aviation engines.andcranesNevertheless,the progression of intelligentmanufacturing has resulted in an escalationof structural complexity and precision in1nechan1calequ1pmnent.introduc1ngchallengessuchasnonlinearity,nonstationarity,incompleteness,incompleteinformation, and insufficient fault categorycoverage inoperationalonitoringdataConsequently, time and frequency domain feature extraction methods based on wavelet packetdecomposition and cepstrum analysis are used to extract features that characterize prominentfaults. Simultaneously, multiscale analysis methods are applied to capture additional fault-relatedinformation,thereby enhancing the accuracy of fault diagnosis.</p>
+    <ul>
+<li><p>Qi Wu, Chen Dong, Eangheng Guof, Lei Wang, Xiang Wu and Changyu Wen, Privacypreserving federated learning for power transformer fault diagnosis with unbalanced dataIEEE Transactions on Industrial Informatics, vol.20,no.4,pp.5383-5394, 2024. doi10.1109/TII.2023.3333914.</p>
 </li>
-<li><p>Dajian Huang, <b>Wen-An Zhang†</b>, Fanghong Guo, Weijiang Liu and Xiaoming Shi. Wavelet packet decomposition-based multiscale CNN for fault diagnosis of wind turbine gearbox. IEEE Transactions on Cybernetics, 2023, 53(1): 443-453. doi: 10.1109/TCYB.2021.3123667.</p>
+<li><p>Dajian Hung,Wen-An Zhang and Steven X. Ding. Bearing fault diagnosis with incompletetraining data: Fault data with partial diameters. lEEE Transactions on Automation Science andEngineering, Early access. doi; 10.1109/TASE.2023.3294811.</p>
 </li>
-<li><p>Dajian Huang, Xiufang Shi and <b>Wenan-An Zhang†</b>. False data injection attack detection for industrial control systems based on both time- and frequency-domain analysis of sensor data. IEEE Internet of Things Journal, 2021, 8(1): 585-595. doi: 10.1109/JIOT.2020.3007155. </p>
+<li><p>Dajian Huang, Wen-An Zhang, Eanghong Guo, Weiing Liu and Xiaoming Shi. Waveletpacket decomposition-based multiscale CNN for fault diagnosis of wind turbine gearboxIEEE Transactions on Cybernetics, 2023, 53(1):443-453. doi; 10.1109/TCYB.2021.3123667. </p>
 </li>
+<li><p>Dajian Huang, Xiufang Shi and Wen-An Zhang. False data injection attack detection forindustrial control systems based on both time- and frequency-domain analysis of sensor data.IEEE Intemet ofThings Jounal, 2021,8(1):585-595. doi:; 10.1109/JOT.2020.3007155.</p>
+</li>
+
 </ul>
-<h3>Privacy-Preserving Federated Learning</h3>
+<h2>Privacy-Preserving Federated Learning</h2>
 <table class="imgtable"><tr><td>
 <img src="photos/ppFL.png" alt="alt text" width="768px" height="380px" />&nbsp;</td>
 <td align="left"></td></tr></table>
@@ -57,7 +118,10 @@ The health of the PT plays an essential role in the reliability and supply susta
 <li><p>Qi Wu, Chen Dong, <b>Fanghong Guo†</b>, Lei Wang, Xiang Wu and Changyun Wen, Privacy-preserving federated learning for power transformer fault diagnosis with unbalanced data. IEEE Transactions on Industrial Informatics, 2023, Early access.</p>
 </li>
 </ul>
-<h2>Fault-tolerant Control for Multi-agent Systems</h2>
+
+
+
+<h2>Fault-tolerant Control</h2>
 <table class="imgtable"><tr><td>
 <img src="photos/FtMAS.png" alt="alt text" width="768px" height="380px" />&nbsp;</td>
 <td align="left"></td></tr></table>
@@ -70,7 +134,34 @@ The health of the PT plays an essential role in the reliability and supply susta
 <li><p><b>Junwei Zhu†</b>, Caoyuan Gu, Ding Wang, Wen-An Zhang and Xin Wang. Design of an intelligent cooperative fault-tolerant trajectory tracking control system for multi-servo motors. Control Theory &amp; Applications, 2021, 38(7): 1023-1032, doi: 10.7641/CTA.2021.00627. (in Chinese)</p>
 </li>
 </ul>
-<h3>Robot compliant control</h3>
+
+<h2>Multi-source remote sensing image interpretation</h2>
+<table class="imgtable"><tr><td>
+<img src="photos/srsii1.png" alt="alt text" width="768px" height="380px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<table class="imgtable"><tr><td>
+<img src="photos/srsii2.png" alt="alt text" width="768px" height="380px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<p>With the continuous development of satellite constellations worldwide, more and more earth observation satellites have been launched into the orbit. On one hand, an abundance of high-resolution images is generated by the spaceborne imaging equipment, and needs to be interpretated effectively for various remote sensing applications. On the other hand, it is also important to achieve dynamic estimation of the on-orbit satellite through observation from multi-source sensors, such as optical and radar equipment. To address these challenges, the utilization of deep learning techniques has emerged as a prevalent approach. Some exploratory methods are proposed based on the information fusion among multi-source data, including SAR/ISAR, optical and DSM data.</p>
+
+  <ul>
+    <li><p><a href ="https://ieeexplore.ieee.org/document/8917816">Yejian Zhou, Lei Zhang*, Yunhe Cao, Yan Huang. The Optical-and-radar Image Fusion for Dynamic Estimation of Spin satellites, IEEE Transactions on Image Processing, vol. 29, pp. 2963-2976, 2020. doi:10.1109/TIP.2019.2955248 </a></p>
+</li>
+    <li><p><a href ="https://ieeexplore.ieee.org/document/9094330">Yejian Zhou, Lei Zhang*, Yunhe Cao. Attitude Estimation for Space Targets by Exploiting the Quadratic Phase Coefficients of ISAR Imagery. IEEE Transactions on Geoscience and Remote Sensing, vol.57, no.6, pp. 3858-3872, 2019. doi:10.1109/TCI.2020.2995052</a></p>
+</li>
+    <li><p><a href ="https://ieeexplore.ieee.org/document/8944033">Yejian Zhou, Lei Zhang*, Yunhe Cao. Dynamic Estimation of Spin Spacecraft Based on Multiple-Station ISAR Images. IEEE Transactions on Geoscience and Remote Sensing, vol. 58, no. 4, pp. 2977-2989, 2020. doi:10.1109/TGRS.2019.2959270</a></p>
+</li>
+   <li><p><a href ="https://ieeexplore.ieee.org/document/8490224">Yejian Zhou, Lei Zhang*, Yunhe Cao, and Zhenhua Wu. Attitude Estimation and Geometry Reconstruction of Satellite Targets Based on ISAR Image Sequence Interpretation. IEEE Transactions on Aerospace and Electronic Systems, vol. 55, no. 4, pp. 1698-1711, 2019.  doi:10.1109/TAES.2018.2875503</a></p></li>
+   <li><p><a href ="https://ieeexplore.ieee.org/document/9094330">Yejian Zhou, Lei Zhang*, Shaopeng Wei, Yunhe Cao. Dynamic Analysis of Spin Satellites through the Quadratic Phase Estimation in Multiple-station Radar Images. IEEE Transactions on Computational Imaging,no.6, pp. 894-907, 2020. Doi:10.1109/TCI.2020.2995052</a></p></li>
+   <li><p><a href ="https://ieeexplore.ieee.org/document/9745843">Yejian Zhou*,  Shaopeng Wei, Lei Zhang,Wenan Zhang, Yan Ma. Dynamic Estimation of Spin Satellite From the Single-Station ISAR Image Sequence With the Hidden Markov Model. IEEE Transactions on Aerospace and Electronic Systems, vol. 58, no. 5, pp. 4626-4638, 2022. doi:10.1109/TAES.2022.3164015</a></p></li>
+   <li><p><a href ="https://ieeexplore.ieee.org/abstract/document/10103551">Yejian Zhou，Pengfei Xie*, Chenwei Li, Mao Jian, Lei Zhang and Wenan Zhang. Automatic Dynamic Estimation of On-Orbit Satellites Through Spaceborne ISAR Imaging. IEEE Transactions on Radar Systems, vol. 1, pp. 34-47, 2023. doi: 10.1109/TRS.2023.3267739</a></p></li>
+
+<!--   <li><p><a href ="https://ieeexplore.ieee.org/document/8944033"> </a></p></li>-->
+
+</ul>
+
+
+<h2>Robot compliant control</h2>
 <table class="imgtable"><tr><td>
 <img src="photos/du1.png" alt="alt text" width="326px" height="245px" />&nbsp;</td>
 <td align="left"><p>Robotic tasks with rich physical interactions, such as polishing, assembly and human-robot collaborations, propose demands for the robot compliant property to ensure operation safety. However, to provide the desired compliant property for robots, we will face two challenging problems. The first one is that we need to accurately establish robot dynamic models, based on which the compliant control could be designed. Offline identification approaches suffer from the accuracy and generalization limitations, and online learning approaches with real-time constraints will be more suitable. The second one is the contradiction between the robot compliance and the tracking accuracy. A useful way to handle this issue is adapting a strategy to adaptively trade-off the robot compliance and accuracy, such as using variable impedance control.</p>
@@ -81,7 +172,7 @@ The health of the PT plays an essential role in the reliability and supply susta
 </li>
 </ul>
 </td></tr></table>
-<h3>Human-behaviors learning</h3>
+<h2>Human-behaviors learning</h2>
 <table class="imgtable"><tr><td>
 <img src="photos/du2.png" alt="alt text" width="326px" height="245px" />&nbsp;</td>
 <td align="left"><p>Human-behaviors learning acts as an important role in the human-robot collaboration. It can be used to increase the cognition of robots to humans, and thus increase the collaboration safety, efficiency. Moreover, it can also be directly used for robot imitation learning. Human-behaviors are always encoded by dynamic systems (DSs), and according to the different types of the learned DSs, human-behaviors learning algorithms can be divided into two types. The first type learns non- autonomous DSs (N-ADSs) where behaviors are driven by the time. This type gains high reproduction accuracy with sacrifice of the flexibility. Moreover, it also inherits disadvantages of regression learning, such as the model expressive limitation and demands of manually feature design, etc. Using non-parametric learning approach might solve these issues well. The second type leans autonomous DSs (ADSs), and the stability of the learned ADSs are mostly cared. However, there exists contradictions between the system stability, model accuracy and model generalization capacity. A feasible way to handle these contradictions is learning data-driven Lyapunov functions. </p>
