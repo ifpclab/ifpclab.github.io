@@ -14,12 +14,34 @@ robotic control and learning algorithms.
 == News
 
 ~~~
-- \[2022.09\]Our paper “External force estimation of the industrial robot based on the error probability model and SWVAKF” was accepted by IEEE Transactions on Instrumentation & Measurement! 
 
+- \[2023.12\]Our paper "EEG-Based Driver Fatigue Detection Using Spatio-Temporal Fusion Network With Brain Region Partitioning Strategy" was accepted by IEEE Transactions on Intelligent Transportation Systems!
+- \[2023.11\]Our paper “Privacy-preserving federated learning for power transformer fault diagnosis with unbalanced data” was accepted by IEEE Transactions on Industrial Informatics! 
+- \[2023.07\]Our paper “Bearing fault diagnosis with incomplete training data: Fault data with partial diameters” was accepted by IEEE Transactions on Automation Science and Engineering!
+- \[2023.01\]Our paper “Wavelet packet decomposition-based multiscale CNN for fault diagnosis of wind turbine gearbox” was published in IEEE Transactions on Cybernetics! 
+- \[2022.09\]Our paper “External force estimation of the industrial robot based on the error probability model and SWVAKF” was accepted by IEEE Transactions on Instrumentation & Measurement! 
+- \[2022.01\]Our paper “Online modeling of the CNC engraving system with dead-zone input nonlinearity” was published in IEEE Transactions on Industrial Electronics! 
+- \[2021.01\]Our paper “False data injection attack detection for industrial control systems based on both time- and frequency-domain analysis of sensor data” was published in IEEE Internet of Things Journal! 
 
 ~~~
+== Introduction
+~~~
+{}{img_left}{photos/n_ppt1.png}{alt text}{652px}{430px}
+~~~
+{}{img_left}{photos/n_ppt2.png}{alt text}{652px}{430px}
+~~~
+{}{img_left}{photos/n_ppt3.png}{alt text}{652px}{430px}
+~~~
+{}{img_left}{photos/n_ppt4.png}{alt text}{652px}{430px}
+~~~
+{}{img_left}{photos/n_ppt5.png}{alt text}{652px}{430px}
+~~~
+{}{img_left}{photos/n_ppt6.png}{alt text}{652px}{430px}
+~~~
+
+
 
 == Contact
+
 Address: Room C105, Information Engineering Building, Zhejiang University of Technology, 288 Liuhe Rd, Xihu District, Hangzhou, China.\n\n
 E-mail: wazhang@zjut.edu.cn
-
